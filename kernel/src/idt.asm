@@ -7,4 +7,5 @@ idt_reload:
     lidt [rdi]
     popfq
     pop rbp
+    sti
     ret

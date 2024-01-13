@@ -1,3 +1,5 @@
+SECTION .dynamic
+
 extern exception_handler
 
 %macro isr_err_stub 1
